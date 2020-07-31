@@ -9,7 +9,7 @@ use Faker\Generator as Faker;
 
 $factory->define(\App\Models\Course::class, function (Faker $faker) {
     return [
-        'user_id' => Auth::id(),
+        'user_id' => $faker->numberBetween($min = 1, $max = 4),
         'category_id' => 1,
         'title' => 'Javascript',
         'sub_title' => 'Introduction to Javascript',
