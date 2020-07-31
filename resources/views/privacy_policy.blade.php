@@ -6,7 +6,7 @@
         <h1>Privacy Policy & Earnings Disclaimer </h1>
 <small class="text-muted">Last Updated on February 6th, 2019 </small>
 <p>
-This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from www.Braintem.org(the “Site”) and all subdomains.
+This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from learnfast.ng(the “Site”) and all subdomains.
 </p> 
 <h2>
 PERSONAL INFORMATION WE COLLECT 
@@ -74,7 +74,7 @@ We may update this privacy policy from time to time in order to reflect, for exa
 <h1>
 CONTACT US</h2>
 <p>
-For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e‑mail at realDavePartner@gmail.com 
+For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e‑mail at tech365@gmail.com 
 </p>
 <h1>
 EARNINGS DISCLAIMER</h2>

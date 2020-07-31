@@ -56,10 +56,10 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'support@braintem.org'),
-        'name' => env('MAIL_FROM_NAME', 'Braintemple Support'),
+        'address' => env('MAIL_FROM_ADDRESS', 'tech365@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'Tech 365 Support'),
     ],
-    'reply_to' => ['address' => 'realdavepartner@gmail.com', 'name' => 'Dave Partner'],
+    'reply_to' => ['address' => 'tech365@gmail.com', 'name' => 'Tech 365'],
 
     /*
     |--------------------------------------------------------------------------

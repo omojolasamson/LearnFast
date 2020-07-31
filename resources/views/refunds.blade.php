@@ -13,7 +13,7 @@ In this course, a lot of sensitive information is revealed that can't be unseen 
 This policy is in place to protect the intellectual property contained within this course.
 </p> 
 <p>
-Please contact realDavePartner@gmail.com if you have any questions about this.
+Please contact tech365@gmail.com if you have any questions about this.
 </p>
 
 @endsection

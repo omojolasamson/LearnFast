@@ -113,7 +113,7 @@
 
       </style>
          
-    @foreach($course->items as $item)
+    @foreach($course as $item)
         <tr>
             {{-- {!! $item->url !!} --}}
             <td data-toggle="modal" data-target="#modal-default" class="greywhenvisited">

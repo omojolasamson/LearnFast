@@ -17,6 +17,7 @@ use App\Models\Course;
 use App\Models\Item;
 use App\Models\View;
 use App\Models\CourseUser;
+use Alaouy\Youtube\Facades\Youtube;
 
 class CourseController extends AppBaseController
 {
@@ -134,11 +135,14 @@ class CourseController extends AppBaseController
         if (!isset($getSubscription) || !$getSubscription) {
             $getSubscription = 'no';
         }
+        
+        
+        $playlistItems = Youtube::getPlaylistItemsByPlaylistId($course->playlist_url);
 
         return view('courses.show')
             ->with('course', $course)
             ->with('getSubscription', $getSubscription)
-            ->with('contents', $contents);
+            ->with('contents', $contents, $playlistItems);
     }
 
 

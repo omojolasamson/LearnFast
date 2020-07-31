@@ -7,8 +7,8 @@
 <p>
 <small class="text-muted">Last Updated on April 24, 2019</small> 
 Please read these Terms of Service ("Terms", "Terms of Service") carefully
-before using the www.braintem.org website (the "Service") operated by
-Braintemple Software . ("us", "we", or "our").
+before using the learnfast.ng website (the "Service") operated by
+Tech365 Software . ("us", "we", or "our").
 Your access to and use of the Service is conditioned upon your acceptance of
 and compliance with these Terms. These Terms apply to all visitors, users and
 others who wish to access or use the Service.
@@ -79,12 +79,12 @@ Links To Other Web Sites</h2>
 <p>
 ------------------------
 Our Service may contain links to third party web sites or services that are
-not owned or controlled by Braintemple Software .
-Braintemple Software . has no control over, and assumes no responsibility for the
+not owned or controlled by Tech365 Software .
+Tech365 Software . has no control over, and assumes no responsibility for the
 content, privacy policies, or practices of any third party web sites or
 services. We do not warrant the offerings of any of these entities/individuals
 or their websites.
-You acknowledge and agree that Braintemple Software . shall not be responsible or
+You acknowledge and agree that Tech365 Software . shall not be responsible or
 liable, directly or indirectly, for any damage or loss caused or alleged to be
 caused by or in connection with use of or reliance on any such content, goods
 or services available on or through any such third party web sites or
@@ -139,5 +139,5 @@ the new terms, you are no longer authorized to use the Service.
 Contact Us</h2> 
 <p>
 ----------
-If you have any questions about these Terms, please contact us at realDavePartner@gmail.com 
+If you have any questions about these Terms, please contact us at tech365@gmail.com 
 @endsection

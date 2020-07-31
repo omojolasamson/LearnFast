@@ -1,8 +1,8 @@
    Make a bank trasfer of the above sum to: <br/>
                             <b>Bank:</b> GTBank <br>
-                            <b>Account Number:</b> 045 6874 551 <br>
-                            <b>Account Name:</b> Braintemple Software <br>
-                           <b> Phone:</b> +234 80 3511 7575 <small>(no calls or text)</small><br>
+                            <b>Account Number:</b> 555 555 555 <br>
+                            <b>Account Name:</b> Tech365 <br>
+                           <b> Phone:</b> +234 555 5555 <small>(no calls or text)</small><br>
                            <br>
                         <p>
                             If you are outside Nigeria, you can transfer money to the above account using 
@@ -88,7 +88,7 @@ data-toggle="collapse" data-target="#bankConfirm" aria-expanded="false" aria-con
 </div>  --}}
 
 <p> NB: This form wont submit if you leave any of the fields above empty.
-    After submiting the form, email proof of payment to realDavePartner@gmail.com and your access will be granted.
+    After submiting the form, email proof of payment to tech365@gmail.com and your access will be granted.
     <p> 
         Click the submit button below.
 

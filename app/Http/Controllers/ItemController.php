@@ -156,7 +156,7 @@ class ItemController extends AppBaseController
                 }
 
                 //send email to all students including admin
-                Mail::to('realdavepartner@gmail.com')
+                Mail::to('tech365@gmail.com')
                 ->bcc($courseUserEmail)
                  ->send(new CourseUpdated($course));  
             }

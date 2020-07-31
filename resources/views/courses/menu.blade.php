@@ -55,10 +55,7 @@
     <p><i class="glyphicon glyphicon-user"></i> <a href="/users/{{$course->user['id']}}"> {!! $course->user['name'] !!}</a></p>
 </div>
 
-<!-- Category Id Field -->
-<div class="form-group col-md-12" style="margin-bottom:0px;padding-left:0px;padding-right:0px;">
-    <p><i class="glyphicon glyphicon-list-alt"></i> <a href="/categories/{!! $course->category['id'] !!}">{{ $course->category['name'] }} </a></p>
-</div>            
+<!-- Category Id Field -->   
 
 <!-- Created At Field -->
 <div class="form-group col-md-12" style="margin-bottom:0px;padding-left:0px;padding-right:0px;">

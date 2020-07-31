@@ -17,7 +17,7 @@ class CreatePaymentsTable extends Migration
             $table->increments('id');
             $table->integer('user_id');
             $table->string('name_of_depositor');
-            $table->longText('proof_of_payment');
+            $table->longText('proof_of_payment')->nullable()->default('I have paid');
              
             $table->string('refund_details')->nullable();
             $table->string('refund_payment_details')->nullable();

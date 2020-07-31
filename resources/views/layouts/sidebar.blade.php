@@ -13,7 +13,7 @@
             </div>
             <div class="pull-left info">
                 @if (Auth::guest())
-                <p>Braintem</p>
+                <p>LearnFast</p>
                 @else
                     <p>{{ Auth::user()->name}}</p>
                 @endif

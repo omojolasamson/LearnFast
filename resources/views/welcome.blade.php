@@ -1,8 +1,17 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
+<head>
+   
+    <!--====== Required meta tags ======-->
     <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
@@ -11,10 +20,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/custom-style.css') }}" >
     
-    <title>Braintem Online University</title>
+    
     {{-- one signal --}}
     <link rel="manifest" href="/manifest.json" />
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<!--<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
   var OneSignal = window.OneSignal || [];
   OneSignal.push(function() {
@@ -22,163 +31,409 @@
       appId: "927dc3a7-ced1-4550-bbfa-cc127860a2e1",
     });
   });
-</script>
+</script>-->
 
 
 <!-- Start of Async ProveSource Code --><script>!function(o,i){window.provesrc&&window.console&&console.error&&console.error("ProveSource is included twice in this page."),provesrc=window.provesrc={dq:[],display:function(o,i){this.dq.push({n:o,g:i})}},o._provesrcAsyncInit=function(){provesrc.init({apiKey:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1Y2E0MWY0MWU4MDZhYTU5NGUwNWU2OTgiLCJpYXQiOjE1NTQyNTk3Nzd9.7w44V8Fyc9z_dYF0napNhfJFAgp0o9Hr9IGaMbPdFhU",v:"0.0.3"})};var r=i.createElement("script");r.type="text/javascript",r.async=!0,r.charset="UTF-8",r.src="https://cdn.provesrc.com/provesrc.js";var e=i.getElementsByTagName("script")[0];e.parentNode.insertBefore(r,e)}(window,document);</script><!-- End of Async ProveSource Code -->
-  </head>
 
 
-
-  <body>
     
+    <!--====== Title ======-->
+    <title>LearnFast</title>
+    
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <a class="navbar-brand mb-3" style="font-size: 25px; color: grey;" href="/">
-          {{--  <img src="/images/logo-coral.svg" width="100px" >  --}}
-         <b> Braintem </b>
-        </a>
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="css/slick.css">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" 
-        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-         aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <!--====== Animate css ======-->
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <!--====== Nice Select css ======-->
+    <link rel="stylesheet" href="css/nice-select.css">
+    
+    <!--====== Nice Number css ======-->
+    <link rel="stylesheet" href="css/jquery.nice-number.min.css">
 
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-          <ul class="navbar-nav mr-auto container-fluid">
-           
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-list-ul"></i> Categories
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  @foreach($categories as $category)
-                          <a class="dropdown-item" href="/categories/{{ $category->id }}">{{ $category->name }}</a>
-                      @endforeach
-               {{-- <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>  --}}
-              </div>
-            </li>
-{{--  
-            <li class="nav-item col-8">
-                     <form class="form-inline my-2 my-lg-0 inbutton">
-                            <input class="form-control form-control-lg mr-sm-0 col-8 bg-light border-0 "
-                            style="border-radius: 5px 0px 0px 5px" 
-                            type="search" placeholder="Search for Courses" aria-label="Search">
-                             
-                            <button class="btn btn-light btn-lg  my-2 my-sm-0 ml-0 col-2" 
-                          style="border-radius: 0px 5px 5px 0px;"
-                            type="submit"><i class="fas fa-search text-danger "></i></button>
-                        </form>
-                    </li>  --}}
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!--====== Fontawesome css ======-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="css/default.css">
+    
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--====== Responsive css ======-->
+    <link rel="stylesheet" href="css/responsive.css">
+  
+  
+</head>
 
-          </ul>
-
-           
-                {{--  <a class="nav-link btn btn-light  mx-2" href="#"
-                
-                data-toggle="popover" title="Try Udemy for Business"
-                data-placement="bottom",
-                data-trigger="focus"
-                data-content="Get your team access to Udemy’s top 2,500 courses anytime,
-                 anywhere.">Udemy for Business</a>
-                <a class="nav-link btn btn-light  mx-2" href="#">Become an Instructor</a>  --}}
-
-                <a class="nav-link btn btn-light  mx-2 rounded-circle" href="#">  <i class="fas fa-shopping-cart"></i> </a>
-                <a data-toggle="modal" data-target="#loginModal"class="nav-link btn btn-outline-dark" href="/login">Login</a>
-           
-                <a data-toggle="modal" data-target="#registerModal" class="nav-link btn btn-danger mx-2" href="/register">Signup</a>
-            
-
-          
+<body>
+   
+    <!--====== PRELOADER PART START ======-->
+    
+    <div class="preloader">
+        <div class="loader rubix-cube">
+            <div class="layer layer-1"></div>
+            <div class="layer layer-2"></div>
+            <div class="layer layer-3 color-1"></div>
+            <div class="layer layer-4"></div>
+            <div class="layer layer-5"></div>
+            <div class="layer layer-6"></div>
+            <div class="layer layer-7"></div>
+            <div class="layer layer-8"></div>
         </div>
-      </nav>
-
-      {{-- One signal invitation 
-      <div class='onesignal-customlink-container'></div> --}}     
-    {{-- 
-      <div class="jumbotron big-banner mb-0 jumbotron-fluid" 
-      style="height: 500px; padding-top: 100px;">
-         
-
-          <div class="container">
-            
-                <div class="row align-items-center">
-                  
-                  <div class="col">
-                    <div class="col-md-5 text-light" 
-                    style=" background:rgba(151, 19, 19, 0.6); border-radius: 10px;">
-                        <h3 class="display-5">Earn thousands of dollars every
-                           month after owning any of these easy courses right 
-                           away!</h3>
-                        <p class="lead pb-3">
-                          To start now <i class="glyphicon glyphicon-hand-right"></i> 
-                           <a href="/login" data-toggle="modal" data-target="#loginModal" class="btn btn-success btn-lg">Login</a> or 
-                           <a href="/register" data-toggle="modal" data-target="#registerModal" class="btn btn-primary btn-lg">Register</a> 
-                          </p>
-                  </div>
-
-
-
-                  </div>
-                 
-                </div>
-              </div>
-
-       </div> --}}
-
-
-       <div class="fresh-content text-light py-3" >
-           <div class="container">
-               <div class="row">
-                   <div class="col-md-4">
-                       <div class="media">
-                            <i class="far fa-play-circle mr-3 display-4" ></i>
-                            <div class="media-body">
-                              <h5 class="mt-0">Fresh Courses</h5>
-                              Choose from 100s of videos with new additions published every month
+    </div>
+    
+    <!--====== PRELOADER PART START ======-->
+    
+    <!--====== HEADER PART START ======-->
+    
+    <header id="header-part">
+       
+        <div class="header-top d-none d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="header-contact text-lg-left text-center">
+                            <ul>
+                                <li><img src="images/all-icon/map.png" alt="icon"><span>70c Allen Avenue, Ikeja</span></li>
+                                <li><img src="images/all-icon/email.png" alt="icon"><span>tech365@gmail.com</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="header-opening-time text-lg-right text-center">
+                            <p>Exclusive offers expiring in: 8 hours</p>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- header top -->
+        
+        <div class="header-logo-support pt-30 pb-30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="logo" style="font-size:16px; font-weight: large; font-style: fantasy">
+                            <!--<a href="index-2.html">-->
+                                <h1 style="font-size:30px; font-weight: bold; font-style: fantasy; color: red">LearnFast</h1>
+                            <!--</a>-->
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8">
+                        <div class="support-button float-right d-none d-md-block">
+                            <div class="support float-left">
+                                <div class="icon">
+                                    <img src="images/all-icon/support.png" alt="icon">
+                                </div>
+                                <div class="cont">
+                                    <p>Need Help? call us</p>
+                                    <span>07033437824</span>
+                                </div>
+                                <div class="button">
+                                    <a href="/instructing" class="main-btn">Become an Instructor</a>
+                                </div>
+                                <div class="button float-lef">
+                                    <a data-toggle="modal" data-target="#loginModal" href="/login" class="main-btn">Login</a>
+                                </div>
+                                <div class="button float-righ">
+                                    <a data-toggle="modal" data-target="#registerModal" href="/register" class="main-btn">Sign Up</a>
+                                </div>
                             </div>
-                          </div>
-                   </div>
-
-                   <div class="col-md-4">
-                        <div class="media">
-                             <i class="fas fa-ribbon mr-3 display-4" ></i>
-                             <div class="media-body">
-                               <h5 class="mt-0">Trusted Instructors</h5>
-                               Take courses taught by industry experts around the world
-                             </div>
-                           </div>
+                            
+                            
+                        </div>
                     </div>
-                   
-                   <div class="col-md-4">
-                        <div class="media">
-                             <i class="fas fa-spinner mr-3 display-4" ></i>
-                             <div class="media-body">
-                               <h5 class="mt-0">Flexible Learning</h5>
-                               Learn on your terms with lifetime course access and the Udemy mobile app
-                             </div>
-                           </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- header logo support -->
+        
+        <div class="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-md-10 col-sm-9 col-8">
+                        <nav class="navbar navbar-expand-lg">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item">
+                                        <a class="active" href="index-2.html">Home</a>
+                                        <ul class="sub-menu">
+                                            <li><a class="active" href="index-2.html">Home 01</a></li>
+                                            <li><a href="index-3.html">Home 02</a></li>
+                                            <li><a href="index-4.html">Home 03</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="about.html">About us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="courses.html">Courses</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="courses.html">Courses</a></li>
+                                            <li><a href="courses-singel.html">Course Singel</a></li>
+                                        </ul>
+                                    </li>
+                                    <!--<li class="nav-item">
+                                        <a href="events.html">Events</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="events.html">Events</a></li>
+                                            <li><a href="events-singel.html">Event Singel</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="teachers.html">Our teachers</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="teachers.html">teachers</a></li>
+                                            <li><a href="teachers-singel.html">teacher Singel</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="blog.html">Blog</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog-singel.html">Blog Singel</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="shop.html">Shop</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="shop.html">Shop</a></li>
+                                            <li><a href="shop-singel.html">Shop Singel</a></li>
+                                        </ul>
+                                    </li>-->
+                                    <li class="nav-item">
+                                        <a href="contact.html">Contact</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="contact.html">Contact Us</a></li>
+                                            <li><a href="contact-2.html">Contact Us 2</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav> <!-- nav -->
                     </div>
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4">
+                        <div class="right-icon text-right">
+                            <ul>
+                                <li><a href="#" id="search"><i class="fa fa-search"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-bag"></i><span>0</span></a></li>
+                            </ul>
+                        </div> <!-- right icon -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div>
+        
+    </header>
+    
+    <!--====== HEADER PART ENDS ======-->
+   
+    <!--====== SEARCH BOX PART START ======-->
+    
+    <div class="search-box">
+        <div class="serach-form">
+            <div class="closebtn">
+                <span></span>
+                <span></span>
+            </div>
+            <form action="#">
+                <input type="text" placeholder="Search by keyword">
+                <button><i class="fa fa-search"></i></button>
+            </form>
+        </div> <!-- serach form -->
+    </div>
+    
+    <!--====== SEARCH BOX PART ENDS ======-->
+   
+    <!--====== SLIDER PART START ======-->
+    
+    <section id="slider-part" class="slider-active">
+        <div class="single-slider bg_cover pt-150" style="background-image: url(images/slider/s-1.jpg)" data-overlay="4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-9">
+                        <div class="slider-cont">
+                            <h1 data-animation="bounceInLeft" data-delay="1s">Earn more by learning a new skill today</h1>
+                            <p data-animation="fadeInUp" data-delay="1.3s">Take courses taught by industry experts around the world</p>
+                            <ul>
+                                <li><a data-animation="fadeInUp" data-delay="1.6s" class="main-btn" href="#">Read More</a></li>
+                                <li><a data-animation="fadeInUp" data-delay="1.9s" class="main-btn main-btn-2" href="#">Get Started</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- single slider -->
+        
+        <div class="single-slider bg_cover pt-150" style="background-image: url(images/slider/s-2.jpg)" data-overlay="4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-9">
+                        <div class="slider-cont">
+                            <h1 data-animation="bounceInLeft" data-delay="1s">Study any topic from any location, anytime at your own pace with support from experts</h1>
+                            <p data-animation="fadeInUp" data-delay="1.3s">Choose from 100s of videos with new additions published every month</p>
+                            <ul>
+                                <li><a data-animation="fadeInUp" data-delay="1.6s" class="main-btn" href="#">Read More</a></li>
+                                <li><a data-animation="fadeInUp" data-delay="1.9s" class="main-btn main-btn-2" href="#">Get Started</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- single slider -->
+        
+        <div class="single-slider bg_cover pt-150" style="background-image: url(images/slider/s-3.jpg)" data-overlay="4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-9">
+                        <div class="slider-cont">
+                            <h1 data-animation="bounceInLeft" data-delay="1s">Explore a variety of fresh topics</h1>
+                            <p data-animation="fadeInUp" data-delay="1.3s">Find the right course for you</p>
+                            <ul>
+                                <li><a data-animation="fadeInUp" data-delay="1.6s" class="main-btn" href="#">Read More</a></li>
+                                <li><a data-animation="fadeInUp" data-delay="1.9s" class="main-btn main-btn-2" href="#">Get Started</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- single slider -->
+    </section>
+    
+    <!--====== SLIDER PART ENDS ======-->
+   
+    <!--====== CATEGORY PART START ======-->
+    
+    <section id="category-part">
+        <div class="container">
+            <div class="category pt-40 pb-80">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="category-text pt-40">
+                            <h2>Best platform to learn everything</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1 col-md-8 offset-md-2 col-sm-8 offset-sm-2 col-8 offset-2">
+                        <div class="row category-slied mt-40">
+                            <div class="col-lg-4">
+                                <a href="#">
+                                    <span class="singel-category text-center color-1">
+                                        <span class="icon">
+                                            <img src="images/all-icon/ctg-1.png" alt="Icon">
+                                        </span>
+                                        <span class="cont">
+                                            <span>Dvelopment</span>
+                                        </span>
+                                    </span> <!-- singel category -->
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="#">
+                                    <span class="singel-category text-center color-2">
+                                        <span class="icon">
+                                            <img src="images/all-icon/ctg-2.png" alt="Icon">
+                                        </span>
+                                        <span class="cont">
+                                            <span>Business</span>
+                                        </span>
+                                    </span> <!-- singel category -->
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="#">
+                                    <span class="singel-category text-center color-3">
+                                        <span class="icon">
+                                            <img src="images/all-icon/ctg-3.png" alt="Icon">
+                                        </span>
+                                        <span class="cont">
+                                            <span>Accounting and Finance</span>
+                                        </span>
+                                    </span> <!-- singel category -->
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="#">
+                                    <span class="singel-category text-center color-1">
+                                        <span class="icon">
+                                            <img src="images/all-icon/ctg-1.png" alt="Icon">
+                                        </span>
+                                        <span class="cont">
+                                            <span>IT and Software</span>
+                                        </span>
+                                    </span> <!-- singel category -->
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="#">
+                                    <span class="singel-category text-center color-2">
+                                        <span class="icon">
+                                            <img src="images/all-icon/ctg-2.png" alt="Icon">
+                                        </span>
+                                        <span class="cont">
+                                            <span>Office Productivity</span>
+                                        </span>
+                                    </span> <!-- singel category -->
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="#">
+                                    <span class="singel-category text-center color-3">
+                                        <span class="icon">
+                                            <img src="images/all-icon/ctg-3.png" alt="Icon">
+                                        </span>
+                                        <span class="cont">
+                                            <span>Personal Development</span>
+                                        </span>
+                                    </span> <!-- singel category -->
+                                </a>
+                            </div>
+                        </div> <!-- category slied -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- category -->
+        </div> <!-- container -->
+    </section>
+    
+    <!--====== CATEGORY PART ENDS ======-->
+   
+    <!--====== ABOUT PART START ======-->
+    
+    
+    
+    <!--====== APPLY PART ENDS ======-->
+   
+    <!--====== COURSE PART START ======-->
+    
+    <section id="course-part" class="pt-115 pb-120 gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title pb-45">
+                        <h5>Our course</h5>
+                        <h2>Featured courses </h2>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
 
-                    
-                 
-               </div>
-           </div>
-       </div>
 
 
-
-
-     
-
-
-
-
-       <div class="container mt-5 text-center" >
+            <div class="container mt-5 text-center" >
            <h3>
                 <small class="text-muted">Top Courses</small>
               </h3>
@@ -235,276 +490,520 @@
 
 
 
-                  
-       </div>
+           
 
 
-       {{--  <div class="container mt-5" >
-          <h3>
-               <small class="text-muted">Top Courses in "Business"</small>
-             </h3>
 
-             <div class="row">
-               <div class="col">
-                  <a href="#" class="btn btn-primary btn-block btn-lg">Top Rated</a>
-               </div>
-               <div class="col">
-                  <a href="#" class="btn btn-secondary btn-block btn-lg">Trending</a>
+
+
+
+
+
+                {{--<div class="col-lg-4">
+                    <div class="singel-course">
+                        <div class="thum">
+                            <div class="image">
+                                <img src="images/course/cu-2.jpg" alt="Course">
+                            </div>
+                            <div class="price">
+                                <span>Free</span>
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <ul>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>(20 Reviws)</span>
+                            <a href="courses-singel.html"><h4>Learn basis javascirpt from start for beginner</h4></a>
+                            <div class="course-teacher">
+                                <div class="thum">
+                                    <a href="#"><img src="images/course/teacher/t-2.jpg" alt="teacher"></a>
+                                </div>
+                                <div class="name">
+                                    <a href="#"><h6>Mark anthem</h6></a>
+                                </div>
+                                <div class="admin">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i><span>31</span></a></li>
+                                        <li><a href="#"><i class="fa fa-heart"></i><span>10</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- singel course -->
                 </div>
-               <div class="col">
-               <a href="#" class="btn btn-info btn-block btn-lg">New and Notworthy</a>
-               </div>
-             </div>
-
-      </div>  --}}
-
-
-      {{--
-      <div class="container mt-5" >
-          <h3>
-               <small class="text-muted">Achieve Your Goals</small>
-             </h3>
-
-             <div class="row">
-               <div class="col-md-4">
-                  <a href="#" >
-                      <figure class="figure">
-                          <img src="/images/woman_photo2.jpg" style="height: 250px;" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                          <figcaption class="figure-caption text-center">
-                            Expand your programming knowledge</figcaption>
-                        </figure>
-                  </a>
-               </div>
-               <div class="col-md-4">
-                  <a href="#" >
-                      <figure class="figure">
-                          <img src="/images/woman_photo1.jpeg" style="height: 250px;" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                          <figcaption class="figure-caption text-center">
-                            Be your own boss</figcaption>
-                        </figure>
-                  </a>
+                <div class="col-lg-4">
+                    <div class="singel-course">
+                        <div class="thum">
+                            <div class="image">
+                                <img src="images/course/cu-3.jpg" alt="Course">
+                            </div>
+                            <div class="price">
+                                <span>Free</span>
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <ul>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>(20 Reviws)</span>
+                            <a href="courses-singel.html"><h4>Learn basis javascirpt from start for beginner</h4></a>
+                            <div class="course-teacher">
+                                <div class="thum">
+                                    <a href="#"><img src="images/course/teacher/t-3.jpg" alt="teacher"></a>
+                                </div>
+                                <div class="name">
+                                    <a href="#"><h6>Mark anthem</h6></a>
+                                </div>
+                                <div class="admin">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i><span>31</span></a></li>
+                                        <li><a href="#"><i class="fa fa-heart"></i><span>10</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- singel course -->
                 </div>
-               <div class="col-md-4">
-                  <a href="#" >
-                      <figure class="figure">
-                          <img src="/images/laptop1.jpg" style="height: 250px;" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                          <figcaption class="figure-caption text-center">
-                            Land an exciting new tech job</figcaption>
-                        </figure>
-                  </a>
-               </div>
-             </div>
-
-      </div>
-
-
-
-      <div class="container mt-3" >
-             <div class="row">
-                <div class="col-md-3">
-                    <a href="#" >
-                        <figure class="figure">
-                            <img src="/images/laptop2.jpg" style="height: 150px;" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption text-center">
-                              Indulge your curiousity</figcaption>
-                          </figure>
-                    </a>
-                 </div>
-
-               <div class="col-md-3">
-                  <a href="#" >
-                      <figure class="figure">
-                          <img src="/images/woman_photo2.jpg" style="height: 150px;" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                          <figcaption class="figure-caption text-center">
-                            Expand your programming knowledge</figcaption>
-                        </figure>
-                  </a>
-               </div>
-               <div class="col-md-3">
-                  <a href="#" >
-                      <figure class="figure">
-                          <img src="/images/woman_photo1.jpeg" style="height: 150px;" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                          <figcaption class="figure-caption text-center">
-                            Be your own boss</figcaption>
-                        </figure>
-                  </a>
+                <div class="col-lg-4">
+                    <div class="singel-course">
+                        <div class="thum">
+                            <div class="image">
+                                <img src="images/course/cu-4.jpg" alt="Course">
+                            </div>
+                            <div class="price">
+                                <span>Free</span>
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <ul>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>(20 Reviews)</span>
+                            <a href="courses-singel.html"><h4>Learn basis javascirpt from start for beginner</h4></a>
+                            <div class="course-teacher">
+                                <div class="thum">
+                                    <a href="#"><img src="images/course/teacher/t-4.jpg" alt="teacher"></a>
+                                </div>
+                                <div class="name">
+                                    <a href="#"><h6>Mark anthem</h6></a>
+                                </div>
+                                <div class="admin">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i><span>31</span></a></li>
+                                        <li><a href="#"><i class="fa fa-heart"></i><span>10</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- singel course -->
                 </div>
-               <div class="col-md-3">
-                  <a href="#" >
-                      <figure class="figure">
-                          <img src="/images/laptop1.jpg" style="height: 150px;" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                          <figcaption class="figure-caption text-center">
-                            Land an exciting new tech job</figcaption>
-                        </figure>
-                  </a>
-               </div>
-             </div>
-
-      </div>
-
---}}
-
-{{-- 
-
-      <div class="container mt-5 text-center" >
-          <h3>
-               <small class="text-muted">Featured Topics</small>
-             </h3>
-
-             @foreach ($categories as $category )
-                
-             <a href="/categories/{{ $category->id }}" class="btn btn-light shadow">{{ $category->name }}</a> 
-             @endforeach
-      </div>
-
-
-  <div class="container " style="margin-top: 120px;">
-         <div class="row">
-           <div class="col text-center border-right">
-            <div class="col-8 offset-1">
-             <h4>Become a Member</h4>
-             <p class="lead" style="font-size: 15px;">Learn what you love. This platform gives you the tools to learn a lot from online courses.</p>
-            <a href="/register" data-toggle="modal" data-target="#registerModal"class="btn btn-lg btn-danger">Start Learning</a>
-            </div>
-          </div>
-
-          <div class="col text-center">
-              <div class="col-8 offset-1">
-               <h4>Login</h4>
-               <p class="lead" style="font-size: 15px;">Get unlimited access to hundreds of our top videos for you and your team.</p>
-              <a href="/login" data-toggle="modal" data-target="#loginModal" class="btn btn-lg btn-danger">Continue learning</a>
-              </div>
-            </div>
-
-
-         </div>
-      </div>
-
---}}
-
-      {{--  <div class="container " style="margin-top: 120px;">
-         <div class="row">
-           <div class="col text-center border-right">
-            <div class="col-8 offset-1">
-             <h4>Become an Instructor</h4>
-             <p class="lead" style="font-size: 15px;">Teach what you love. Udemy gives you the tools to create an online course.</p>
-            <a href="#" class="btn btn-lg btn-danger">Start Teaching</a>
-            </div>
-          </div>
-
-          <div class="col text-center">
-              <div class="col-8 offset-1">
-               <h4>Udemy for Business</h4>
-               <p class="lead" style="font-size: 15px;">Get unlimited access to 2,500 of Udemy’s top courses for your team.</p>
-              <a href="#" class="btn btn-lg btn-danger">Get Udemy for business</a>
-              </div>
-            </div>
-
-
-         </div>
-      </div>  --}}
-
-
-{{--  <div class="row pt-5 px-3 border-top mt-5 " style="font-size: 13px;">
-  <div class="col">
-
+                <div class="col-lg-4">
+                    <div class="singel-course">
+                        <div class="thum">
+                            <div class="image">
+                                <img src="images/course/cu-5.jpg" alt="Course">
+                            </div>
+                            <div class="price">
+                                <span>Free</span>
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <ul>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>(20 Reviws)</span>
+                            <a href="courses-singel.html"><h4>Learn basis javascirpt from start for beginner</h4></a>
+                            <div class="course-teacher">
+                                <div class="thum">
+                                    <a href="#"><img src="images/course/teacher/t-5.jpg" alt="teacher"></a>
+                                </div>
+                                <div class="name">
+                                    <a href="#"><h6>Mark anthem</h6></a>
+                                </div>
+                                <div class="admin">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i><span>31</span></a></li>
+                                        <li><a href="#"><i class="fa fa-heart"></i><span>10</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- singel course --> --}}
+                </div>
+            </div> <!-- course slied -->
+        </div> <!-- container -->
+    </section>
     
-    <ul class="nav flex-column">
-        <li class="nav-item">
-          <a class="nav-link text-info" href="#"><b>Udemy for business</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-info" href="#"><b>Become and Instructor</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-info" href="#">Mobile Apps</a>
-        </li>
-      </ul>
-
-
-  </div>
-  <div class="col">
-
-      <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link text-info" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-info" href="#">Careers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-info" href="#">Blog</a>
-          </li>
-        </ul>
-
-  </div>
-  <div class="col">
-
-      <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link text-info" href="#">Topics</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-info" href="#">Support</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-info" href="#">Affiliate</a>
-          </li>
-        </ul>
-
-  </div>
-  <div class="col">
-<form>
-    <div class="form-group col-6 float-right">
-        <select  class="form-control" id="exampleFormControlSelect2">
-          <option><i class="fas fa-globe"></i> English</option>
-          <option>Japanese</option>
-          <option>Yoruba</option>
-          <option>Igbo</option>
-          <option>Hausa</option>
-        </select>
-      </div>
-</form>
-
-  </div>
-</div>
-  --}}
-
-
-{{--  
-<nav class="nav mt-5 ml-3" style="font-size: 12px;">
-    <span class="nav-link active text-muted font-weight-bold" >Local Home Pages</span>
-    <span class="nav-link" >English</span>
-    <a class="nav-link text-info" href="#">Deutsch</a>
-    <a class="nav-link text-info" href="#">Français</a>
-    <a class="nav-link text-info" href="#">Português</a>
-    <a class="nav-link text-info" href="#">日本語</a>
-  </nav>  --}}
-<hr/>
-
-<div class="row" style="font-size: 12px;">
-      <div class="col pl-5">
-          {{--  <img src="/images/logo-coral.svg" width="100px" class="mr-5" >  --}}
-           <a class="navbar-brand mb-3" style="font-size: 15px; color: grey;" href="/">
-          {{--  <img src="/images/logo-coral.svg" width="100px" >  --}}
+    <!--====== COURSE PART ENDS ======-->
+   
+    <!--====== VIDEO FEATURE PART START ======-->
+    
+    <section id="video-feature" class="bg_cover pt-60 pb-110" style="background-image: url(images/bg-1.jpg)">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-last order-lg-first">
+                    <div class="video text-lg-left text-center pt-50">
+                        <a class="Video-popup" href="https://www.youtube.com/watch?v=bRRtdzJH1oE"><i class="fa fa-play"></i></a>
+                    </div> <!-- row -->
+                </div>
+                <div class="col-lg-5 offset-lg-1 order-first order-lg-last">
+                    <div class="feature pt-50">
+                        <div class="feature-title">
+                            <h3>Watch Video Testimonials of Our Students</h3>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="singel-feature">
+                                    <div class="icon">
+                                        <img src="images/all-icon/f-1.png" alt="icon">
+                                    </div>
+                                    <div class="cont">
+                                       {{-- <h4>Global Certificate</h4>
+                                        <p>Gravida nibh vel velit auctor aliquetn auci elit cons solliazcitudirem sem quibibendum sem nibhutis.</p>
+                                    </div>
+                                </div> <!-- singel feature -->
+                            </li>
+                            <li>
+                                <div class="singel-feature">
+                                    <div class="icon">
+                                        <img src="images/all-icon/f-2.png" alt="icon">
+                                    </div>
+                                    <div class="cont">
+                                        <h4>Alumni Support</h4>
+                                        <p>Gravida nibh vel velit auctor aliquetn auci elit cons solliazcitudirem sem quibibendum sem nibhutis.</p>
+                                    </div>
+                                </div> <!-- singel feature -->
+                            </li>
+                            <li>
+                                <div class="singel-feature">
+                                    <div class="icon">
+                                        <img src="images/all-icon/f-3.png" alt="icon">
+                                    </div>
+                                    <div class="cont">
+                                        <h4>Books & Library</h4>
+                                        <p>Gravida nibh vel velit auctor aliquetn auci elit cons solliazcitudirem sem quibibendum sem nibhutis.</p>
+                                    </div> --}}
+                                </div> <!-- singel feature -->
+                            </li>
+                        </ul>
+                    </div> <!-- feature -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+        <div class="feature-bg"></div> <!-- feature bg -->
+    </section>
+    
+    <!--====== VIDEO FEATURE PART ENDS ======-->
+   
+    <!--====== TEACHERS PART START ======-->
+    
+    
+    
+    <!--====== TEACHERS PART ENDS ======-->
+   
+    <!--====== PUBLICATION PART START ======-->
+    
+    
+    
+    <!--====== PUBLICATION PART ENDS ======-->
+   
+    <!--====== TEASTIMONIAL PART START ======-->
+    
+    <section id="testimonial" class="bg_cover pt-115 pb-115" data-overlay="8" style="background-image: url(images/bg-2.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title pb-40">
+                        <h5>Testimonial</h5>
+                        <h2>What Our Stuudents Are saying</h2>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row testimonial-slied mt-40">
+                <div class="col-lg-6">
+                    <div class="singel-testimonial">
+                        <div class="testimonial-thum">
+                            <img src="images/slider/s-1.jpg" alt="Testimonial">
+                            <div class="quote">
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-cont">
+                            <p>Aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet sem nibh id elit sollicitudirem </p>
+                            <h6>Rubina Helen</h6>
+                            <span>Bsc, Engineering</span>
+                        </div>
+                    </div> <!-- singel testimonial -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="singel-testimonial">
+                        <div class="testimonial-thum">
+                            <img src="images/slider/s-2.jpg" alt="Testimonial">
+                            <div class="quote">
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-cont">
+                            <p>Aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet sem nibh id elit sollicitudirem </p>
+                            <h6>Rubina Helen</h6>
+                            <span>Bsc, Engineering</span>
+                        </div>
+                    </div> <!-- singel testimonial -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="singel-testimonial">
+                        <div class="testimonial-thum">
+                            <img src="images/slider/s-3.jpg" alt="Testimonial">
+                            <div class="quote">
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-cont">
+                            <p>Aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet sem nibh id elit sollicitudirem </p>
+                            <h6>Rubina Helen</h6>
+                            <span>Bsc, Engineering</span>
+                        </div>
+                    </div> <!-- singel testimonial -->
+                </div>
+            </div> <!-- testimonial slied -->
+        </div> <!-- container -->
+    </section>
+    
+    <!--====== TEASTIMONIAL PART ENDS ======-->
+   
+    <!--====== NEWS PART START ======-->
+    
+    
+    
+    <!--====== NEWS PART ENDS ======-->
+   
+    <!--====== PATNAR LOGO PART START ======-->
+    <p><h1>Companies we've worked with</h1></p>
+    <div id="patnar-logo" class="pt-40 pb-80 gray-bg">
+        <div class="container">
+            <div class="row patnar-slied">
+                <div class="col-lg-12">
+                    <div class="singel-patnar text-center mt-40">
+                        <img src="images/patnar-logo/p-1.png" alt="Logo">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="singel-patnar text-center mt-40">
+                        <img src="images/patnar-logo/p-2.png" alt="Logo">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="singel-patnar text-center mt-40">
+                        <img src="images/patnar-logo/p-3.png" alt="Logo">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="singel-patnar text-center mt-40">
+                        <img src="images/patnar-logo/p-4.png" alt="Logo">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="singel-patnar text-center mt-40">
+                        <img src="images/patnar-logo/p-2.png" alt="Logo">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="singel-patnar text-center mt-40">
+                        <img src="images/patnar-logo/p-3.png" alt="Logo">
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </div> 
+    
+    <!--====== PATNAR LOGO PART ENDS ======-->
+   
+    <!--====== FOOTER PART START ======-->
+    
+    <footer id="footer-part">
+        <div class="footer-top pt-40 pb-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-about mt-40">
+                            <div class="logo">
+                                <a href="#"><h1>LearnFast</h1></a>
+                            </div>
+                            <p>Lorem Ipsum vel velit auctor aliquetn quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
+                            <ul class="mt-20">
+                                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div> <!-- footer about -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-link mt-40">
+                            <div class="footer-title pb-25">
+                                <h6>Sitemap</h6>
+                            </div>
+                            <ul>
+                                <li><a href="index-2.html"><i class="fa fa-angle-right"></i>Home</a></li>
+                                <li><a href="about.html"><i class="fa fa-angle-right"></i>About us</a></li>
+                                <li><a href="courses.html"><i class="fa fa-angle-right"></i>Courses</a></li>
+                                <li><a href="blog.html"><i class="fa fa-angle-right"></i>News</a></li>
+                                <li><a href="events.html"><i class="fa fa-angle-right"></i>Event</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Gallery</a></li>
+                                <li><a href="shop.html"><i class="fa fa-angle-right"></i>Shop</a></li>
+                                <li><a href="teachers.html"><i class="fa fa-angle-right"></i>Instructors</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Support</a></li>
+                                <li><a href="contact.html"><i class="fa fa-angle-right"></i>Contact</a></li>
+                            </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-link support mt-40">
+                            <div class="footer-title pb-25">
+                                <h6>Support</h6>
+                            </div>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>FAQS</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Privacy</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Policy</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Support</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Documentation</a></li>
+                            </ul>
+                        </div> <!-- support -->
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-address mt-40">
+                            <div class="footer-title pb-25">
+                                <h6>Contact Us</h6>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fa fa-home"></i>
+                                    </div>
+                                    <div class="cont">
+                                        <p>No 70c, Allen Avenue, Ikeja, Lagos</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fa fa-phone"></i>
+                                    </div>
+                                    <div class="cont">
+                                        <p>+234 7033437824</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fa fa-envelope-o"></i>
+                                    </div>
+                                    <div class="cont">
+                                        <p>tech365@gmail.com</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div> <!-- footer address -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer top -->
         
-           <span>Copyright © 2019 Dave Partner Media.</span>
-      </div>
-      <div class="col">
-          <ul class="nav justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link active text-info" href="#">Terms</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-info" href="#">Privacy and Cookie Policy</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-info" href="#">Intellectual Property</a>
-              </li>
-            </ul>
+        <div class="footer-copyright pt-10 pb-25">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="copyright text-md-left text-center pt-15">
+                            <p><a target="_blank" href="#">LearnFast</a> </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="copyright text-md-right text-center pt-15">
+                           
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer copyright -->
+    </footer>
+    
+    <!--====== FOOTER PART ENDS ======-->
+   
+    <!--====== BACK TO TP PART START ======-->
+    
+    <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+    
+    <!--====== BACK TO TP PART ENDS ======-->
+   
+    
+    
+    
+    
+    
+    
+    
+    <!--====== jquery js ======-->
+    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
 
-      </div>
-</div>
+    <!--====== Bootstrap js ======-->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!--====== Slick js ======-->
+    <script src="js/slick.min.js"></script>
+    
+    <!--====== Magnific Popup js ======-->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    
+    <!--====== Counter Up js ======-->
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    
+    <!--====== Nice Select js ======-->
+    <script src="js/jquery.nice-select.min.js"></script>
+    
+    <!--====== Nice Number js ======-->
+    <script src="js/jquery.nice-number.min.js"></script>
+    
+    <!--====== Count Down js ======-->
+    <script src="js/jquery.countdown.min.js"></script>
+    
+    <!--====== Validator js ======-->
+    <script src="js/validator.min.js"></script>
+    
+    <!--====== Ajax Contact js ======-->
+    <script src="js/ajax-contact.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="js/main.js"></script>
+    
+    <!--====== Map js ======-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ"></script>
+    <script src="js/map-script.js"></script>
+
+
+
+
+
+
 
 
 <!-- Button trigger modal -->
@@ -559,11 +1058,7 @@ aria-labelledby="registerModalLabel">
 
  
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  
   
   <script>
     $(function () {
@@ -571,21 +1066,10 @@ aria-labelledby="registerModalLabel">
     })
   
   </script>
-  <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5c9dd6a71de11b6e3b05cd12/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+
+
+
+
+
 </body>
-
-
-
 </html>

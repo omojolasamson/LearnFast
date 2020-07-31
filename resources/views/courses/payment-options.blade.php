@@ -356,7 +356,7 @@ padding-bottom: 10px;margin-bottom: 10px;">
 In this course, a lot of sensitive and high-value information is revealed that can not be unseen or unlearned. 
 This policy is in place to protect the intellectual property contained within this course.
 
-Please contact realDavePartner@gmail.com if you have any questions about this.
+Please contact tech365@gmail.com if you have any questions about this.
             
         @endif
     </p>
@@ -407,7 +407,7 @@ data-toggle="collapse" data-target="#bankConfirm" aria-expanded="false" aria-con
             </div>
 
             <br/>
-            <p> Send an email to <b>realDavePartner@gmail.com</b> if you have any issues </p>
+            <p> Send an email to <b>tech365@gmail.com</b> if you have any issues </p>
             
             
             

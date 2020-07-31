@@ -1,13 +1,13 @@
 <div class="register-box">
     {{-- <div class="register-logo">
-        <a href="{{ url('/home') }}"><b>Braintem </b>Online School</a>
+        <a href="{{ url('/home') }}"><b>LearnFast </b>Online School</a>
 </div> --}}
 
 <div class="register-box-body">
 
     <div class="social-auth-links text-center">
         <a href="/login/facebook" class="btn btn-block btn-social btn-facebook btn-flat">
-            <i class="fa fa-facebook"></i> Sign in with
+            <i class="fa fa-facebook"></i> Sign in with 
             Facebook</a>
         <br />
 
@@ -20,6 +20,7 @@
 
         {!! csrf_field() !!}
 
+        <input type="hidden" name="role" value="2">
         <div class="form-group has-feedback{{ $errors->has('name') ? ' has-error' : '' }}">
             <input type="text" class="form-control" name="name" value="{{ old('name') }}" placeholder="Full Name">
             <span class="glyphicon glyphicon-user form-control-feedback"></span>

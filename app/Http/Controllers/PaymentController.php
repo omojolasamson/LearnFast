@@ -23,6 +23,7 @@ use App\Mail\PaymentSubmittedAdmin;
 use App\Mail\PaymentConfirmed;
 
 
+
 class PaymentController extends AppBaseController
 {
     /** @var  PaymentRepository */
@@ -50,6 +51,8 @@ class PaymentController extends AppBaseController
     public function handleGatewayCallback()
     {
         $paymentDetails = Paystack::getPaymentData();
+        //dd($paymentDetails);
+    
 
         // Now you have the payment details,
         // you can store the authorization_code in your db to allow for recurrent subscriptions
@@ -67,6 +70,8 @@ class PaymentController extends AppBaseController
         }
 
 
+
+        $data = json_decode($paymentDetails['data']['metadata'][0], true);
         if(Auth::check()){
             $user_id = Auth::user()->id;
         }else{
@@ -78,9 +83,11 @@ class PaymentController extends AppBaseController
             }else{
                 //otherwise, create new account for user
                 User::create([
-                    'name' => $paymentDetails['data']['customer']['first_name'] . ' ' . $paymentDetails['data']['customer']['last_name'],
-                    'first_name' => $paymentDetails['data']['customer']['first_name'],
-                    'last_name' => $paymentDetails['data']['customer']['last_name'],
+                    'name' => $data['first_name'] . ' ' . $data['last_name'],
+                    'first_name' => $data['first_name'],
+                    'last_name' => $data['last_name'],
+                    
+                    'role_id' => '4',
                     'email' => $paymentDetails['data']['customer']['email'],
                     'password' => Hash::make($paymentDetails['data']['customer']['email']) 
 
@@ -96,9 +103,11 @@ class PaymentController extends AppBaseController
         }
 
         //update payments table
+        
         Payment::create([
             'user_id' => $user_id,
-            'course_id' => $paymentDetails['data']['metadata']['course_id'],
+            'course_id' => $data['course_id'],
+            'name_of_depositor' => $data['first_name'] . " " . $data['last_name'],
             'amount' => ($paymentDetails['data']['amount']/100),
             'status' => 'confirmed',
             'mode_of_payment' => $paymentDetails['data']['channel'],
@@ -108,8 +117,9 @@ class PaymentController extends AppBaseController
         //update course_user table 
             CourseUser::create([
                 'user_id' => $user_id,
-                'course_id' => $paymentDetails['data']['metadata']['course_id'],
+                'course_id' => $data['course_id'],
                 'status' => 1,
+                'proof_of_payment' => 'I have paid',
                 'paid_amount' => ($paymentDetails['data']['amount'] / 100),
                 //'paid_date' => $paymentDetails['data']['paid_at'] 
             ]);
@@ -122,7 +132,7 @@ class PaymentController extends AppBaseController
             Auth::loginUsingId($user_id);
         }
             //redirect
-        return redirect()->route('courses.show', ['id' => $paymentDetails['data']['metadata']['course_id']]);
+        return redirect()->route('courses.show', ['id' => $data['course_id']]);
       
     }
 
@@ -189,8 +199,8 @@ class PaymentController extends AppBaseController
                 //otherwise, create new account for user
               $userCreate =  User::create([
                     'name' => $input['email'],
-                    'first_name' => 'null',
-                    'last_name' => 'null',
+                    'first_name' => $input['first_name'],
+                    'last_name' => $input['last_name'],
                     'email' => $input['email'],
                     'password' =>  Hash::make($input['email'])
 
@@ -215,7 +225,7 @@ class PaymentController extends AppBaseController
                 ->send(new PaymentSubmitted( $payment)); 
                 
                 //send email to admin
-             Mail::to('realdavepartner@gmail.com')
+             Mail::to('tech365@gmail.com')
             ->send(new PaymentSubmittedAdmin($payment)); 
             
             Flash::success('Payment submitted successfully. You will get an email once we receive the payment confirmation. Admin will activate your course once your payment is verified within 24 hours');

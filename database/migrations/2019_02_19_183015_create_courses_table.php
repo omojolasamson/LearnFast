@@ -18,7 +18,7 @@ class CreateCoursesTable extends Migration
             $table->integer('user_id');
 
             //create course
-            $table->integer('category_id');
+            $table->integer('category_id')->default(1);
             
             $table->string('title');
             $table->string('sub_title')->nullable(); 

@@ -17,6 +17,14 @@ Auth::routes();
 
 Route::get('/home', 'CourseController@index')->name('home');
 
+Route::get('/home', 'CourseController@index')->name('home');
+
+Route::get('/instructing', function () {
+    return view('instructing');
+});
+
+Route::get('/instructorregister', 'RegisterController@instructor')->name('instructorregister');
+
 Route::get('/privacy', function () {
     return view('privacy_policy');
 });

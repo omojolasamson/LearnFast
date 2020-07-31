@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Braintem - <?php if (isset($title)) {
+    <title>LearnFast - <?php if (isset($title)) {
                             echo $title;
                         } else {
-                            echo 'online university';
+                            echo '';
                         } ?></title>
     {{-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">  --}}
 
@@ -121,6 +121,9 @@
         }(document, 'script', 'facebook-jssdk'));
     </script>
 
+
+        
+
 </head>
 
 <body class="skin-red-light sidebar-mini">
@@ -131,7 +134,7 @@
 
             <!-- Logo -->
             <a href="/home" class="logo">
-                <b><i class="glyphicon glyphicon-home"></i> Braintem</b>
+                <b><i class="glyphicon glyphicon-home"></i> LearnFast</b>
             </a>
 
             <!-- Header Navbar -->
@@ -196,7 +199,7 @@
 
         <!-- Main Footer -->
         <footer class="main-footer" style="max-height: 100px;text-align: center">
-            <strong>Copyright © 2019 Dave Partner Media.</strong> All rights reserved.
+            <strong>Copyright © 2020 Tech365.</strong> All rights reserved.
         </footer>
 
     </div>
@@ -215,7 +218,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{!! url('/') !!}">
-                    Braintem
+                    LearnFast
                 </a>
             </div>
 
