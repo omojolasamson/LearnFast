@@ -15,9 +15,6 @@ class DatabaseSeeder extends Seeder
             CourseSeeder::class,
             
         ]);
-        $this->call([
-            UserSeeder::class,
-            
-        ]);
+        factory('App\Models\User', 10)->create();
     }
 }
