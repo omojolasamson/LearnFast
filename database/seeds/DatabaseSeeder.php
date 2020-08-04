@@ -19,6 +19,8 @@ class DatabaseSeeder extends Seeder
             CourseSeeder::class,
             
         ]);
+
+        $this->call(CategorySeeder::class);
         
         
     }
