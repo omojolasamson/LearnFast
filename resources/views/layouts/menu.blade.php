@@ -20,7 +20,7 @@
 <li class="">
  <a href="{!! url('/logout') !!}"
         onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-        <i class="glyphicon glyphicon-off"></i><span> Logout out
+        <i class="glyphicon glyphicon-off"></i><span> Logout
 </a>
 <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
         {{ csrf_field() }}

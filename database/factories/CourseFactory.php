@@ -9,12 +9,12 @@ use Faker\Generator as Faker;
 $factory->define(\App\Models\Course::class, function (Faker $faker) {
     return [
         'user_id' => $faker->numberBetween($min = 1, $max = 4),
-        'category_id' => 1,
+        'category_id' => $faker->numberBetween($min = 1, $max = 8),
         'title' => 'Javascript',
         'sub_title' => 'Introduction to Javascript',
         'description' => $faker->paragraphs(rand(2, 10), true),
         'about_instructor' => $faker->paragraphs(rand(2, 5), true),
-        'playlist_url' => 'PL55RiY5tL51qIb5VW2ywbT12UZeqmzBAu',
+        'playlist_url' => 'https://www.youtube.com/playlist?list=PLRAV69dS1uWTSu9cVg8jjXW8jndOYYJPP',
         'tags' => $faker->sentence,
         'photo' => 'http://lorempixel.com/400/200',
         'promo_video_url' => 'https://www.youtube.com/watch?v=NvQmi_ciL1k',
