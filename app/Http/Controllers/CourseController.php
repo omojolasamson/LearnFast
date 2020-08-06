@@ -137,12 +137,11 @@ class CourseController extends AppBaseController
         }
         
         
-        $playlistItems = Youtube::getPlaylistItemsByPlaylistId($course->playlist_url);
 
         return view('courses.show')
             ->with('course', $course)
             ->with('getSubscription', $getSubscription)
-            ->with('contents', $contents, $playlistItems);
+            ->with('contents', $contents);
     }
 
 
