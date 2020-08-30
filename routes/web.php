@@ -19,21 +19,25 @@ Route::get('/home', 'CourseController@index')->name('home');
 
 Route::get('/home', 'CourseController@index')->name('home');
 
-Route::get('/instructing', function () {
-    return view('instructing');
-});
+Route::get('/instructing', 'UserController@instructing');
 
 Route::get('/instructorregister', 'RegisterController@instructor')->name('instructorregister');
 
-Route::get('/privacy', function () {
-    return view('privacy_policy');
-});
-Route::get('/tos', function(){
-    return view('terms_of_service');
-});
-Route::get('/refund', function () {
-    return view('refunds');
-});
+Route::get('/privacy', 'UserController@privacy'
+    
+);
+
+
+Route::get('/tos', 'UserController@tos'
+    
+);
+
+
+
+
+
+Route::get('/refund', 'UserController@refund'
+    );
 
 //facebook login
 Route::get('login/facebook', 'Auth\LoginController@redirectToProvider')->name('login.facebook');

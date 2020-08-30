@@ -93,7 +93,7 @@
 
             </div>
     @endif
-<h2 class="col-md-8 text-center">Course contents</h2>
+<h2 class="col-md-8 text-center">Course content</h2>
 
 <div class="col-md-8">
 <table class="table table-responsive"  id="items-table">

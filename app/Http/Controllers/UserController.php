@@ -41,6 +41,35 @@ class UserController extends AppBaseController
             ->with('users', $users);
     }
 
+
+
+    public function AuthRouteAPI(Request $request){
+        return $request->user();
+     }
+
+     public function instructing()
+    {
+        return view('instructing');
+    }
+
+
+    public function privacy()
+    {
+        return view('privacy_policy');
+    }
+
+    
+    public function tos()
+    {
+        return view('terms_of_service');
+    }
+
+
+    public function refund()
+    {
+        return view('refunds');
+    }
+
     /**
      * Show the form for creating a new User.
      *

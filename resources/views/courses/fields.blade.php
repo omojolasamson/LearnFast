@@ -92,10 +92,10 @@
 </div>
 
 <!-- Photo Field -->
-{{--  <div class="form-group col-md-6">
+  <div class="form-group col-md-6">
     {!! Form::label('photo', 'Photo:') !!}
     {!! Form::text('photo', null, ['class' => 'form-control']) !!}
-</div>  --}}
+</div> 
 
 <!-- Promo Video Url Field -->
 <div class="form-group col-md-12">

@@ -13,12 +13,12 @@
 	 <br/>
 	 <h3 class="text-danger col-md-9" style="padding-left: 15px;"> 
             <i class="glyphicon glyphicon-warning-sign"></i> 
-       [Watch till end] Do not skip this video! </h3>
+       Here's an overview of the course </h3>
         
                 <iframe 
 				height="450px" 
                 class="col-md-9" 
-                src="https://www.youtube.com/embed/<?php echo  $matches[0]; ?>?&autoplay=1&controls=0&showinfo=0&loop=1" 
+                src="https://www.youtube.com/embed/<?php echo  $matches[0]; ?>?&autoplay=0&rel=0&modestbranding=1&allownetworking=internal&controls=0&showinfo=0&loop=1" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>

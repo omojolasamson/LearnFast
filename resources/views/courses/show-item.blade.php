@@ -28,13 +28,25 @@
   @if(!isset($paymentShowing))
 
         @if($ret > 0)
-                <iframe 
+                <!--<iframe 
                 width="100%" 
                 height="450px" 
                 src="https://www.youtube.com/embed/<?php echo  $matches[0]; ?>?&autoplay=1" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+                allowfullscreen></iframe>-->
+
+
+                            <!-- If the video is youtube video -->
+
+                            <link rel="stylesheet" href="global/plyr/plyr.css">
+
+                <div class="plyr__video-embed" id="player">
+                    <iframe width="100%" height="450px" src="https://www.youtube.com/watch?v=<?php echo $matches[0];?>?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1" allowfullscreen allowtransparency allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+
+              
+                <!------------- PLYR.IO ------------>
 
         @else
 

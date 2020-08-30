@@ -121,7 +121,7 @@
         }(document, 'script', 'facebook-jssdk'));
     </script>
 
-
+<link rel="stylesheet" href="/global/plyr/plyr.css">
         
 
 </head>
@@ -278,6 +278,8 @@
         })();
     </script>
     <!--End of Tawk.to Script-->
+    <script src="/global/plyr/plyr.js"></script>
+                <script>const player = new Plyr('#player');</script>
 </body>
 
 </html>

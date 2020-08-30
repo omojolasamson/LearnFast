@@ -7,39 +7,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="{{ asset('css/custom.css') }}" >
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ asset('css/custom-style.css') }}" >
-    
-    
-    {{-- one signal --}}
-    <link rel="manifest" href="/manifest.json" />
-<!--<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-<script>
-  var OneSignal = window.OneSignal || [];
-  OneSignal.push(function() {
-    OneSignal.init({
-      appId: "927dc3a7-ced1-4550-bbfa-cc127860a2e1",
-    });
-  });
-</script>-->
-
-
-<!-- Start of Async ProveSource Code --><script>!function(o,i){window.provesrc&&window.console&&console.error&&console.error("ProveSource is included twice in this page."),provesrc=window.provesrc={dq:[],display:function(o,i){this.dq.push({n:o,g:i})}},o._provesrcAsyncInit=function(){provesrc.init({apiKey:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1Y2E0MWY0MWU4MDZhYTU5NGUwNWU2OTgiLCJpYXQiOjE1NTQyNTk3Nzd9.7w44V8Fyc9z_dYF0napNhfJFAgp0o9Hr9IGaMbPdFhU",v:"0.0.3"})};var r=i.createElement("script");r.type="text/javascript",r.async=!0,r.charset="UTF-8",r.src="https://cdn.provesrc.com/provesrc.js";var e=i.getElementsByTagName("script")[0];e.parentNode.insertBefore(r,e)}(window,document);</script><!-- End of Async ProveSource Code -->
-
-
     
     <!--====== Title ======-->
-    <title>LearnFast</title>
+    <title>Edubin - LMS Education HTML Template</title>
     
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
@@ -141,13 +111,13 @@
                                     <span>07033437824</span>
                                 </div>
                                 <div class="button">
-                                    <a href="/instructing" class="main-btn">Become an Instructor</a>
+                                    <a href="#" class="main-btn">Become an Instructor</a>
                                 </div>
                                 <div class="button float-lef">
-                                    <a data-toggle="modal" data-target="#loginModal" href="/login" class="main-btn">Login</a>
+                                    <a href="#" class="main-btn">Login</a>
                                 </div>
                                 <div class="button float-righ">
-                                    <a data-toggle="modal" data-target="#registerModal" href="/register" class="main-btn">Sign Up</a>
+                                    <a href="#" class="main-btn">Sign Up</a>
                                 </div>
                             </div>
                             
@@ -269,8 +239,8 @@
                 <div class="row">
                     <div class="col-xl-7 col-lg-9">
                         <div class="slider-cont">
-                            <h1 data-animation="bounceInLeft" data-delay="1s">Earn more by learning a new skill today</h1>
-                            <p data-animation="fadeInUp" data-delay="1.3s">Take courses taught by industry experts around the world</p>
+                            <h1 data-animation="bounceInLeft" data-delay="1s">Choose the right theme for education</h1>
+                            <p data-animation="fadeInUp" data-delay="1.3s">Donec vitae sapien ut libearo venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt  Sed fringilla mauri amet nibh.</p>
                             <ul>
                                 <li><a data-animation="fadeInUp" data-delay="1.6s" class="main-btn" href="#">Read More</a></li>
                                 <li><a data-animation="fadeInUp" data-delay="1.9s" class="main-btn main-btn-2" href="#">Get Started</a></li>
@@ -286,8 +256,8 @@
                 <div class="row">
                     <div class="col-xl-7 col-lg-9">
                         <div class="slider-cont">
-                            <h1 data-animation="bounceInLeft" data-delay="1s">Study any topic from any location, anytime at your own pace with support from experts</h1>
-                            <p data-animation="fadeInUp" data-delay="1.3s">Choose from 100s of videos with new additions published every month</p>
+                            <h1 data-animation="bounceInLeft" data-delay="1s">Choose the right theme for education</h1>
+                            <p data-animation="fadeInUp" data-delay="1.3s">Donec vitae sapien ut libearo venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt  Sed fringilla mauri amet nibh.</p>
                             <ul>
                                 <li><a data-animation="fadeInUp" data-delay="1.6s" class="main-btn" href="#">Read More</a></li>
                                 <li><a data-animation="fadeInUp" data-delay="1.9s" class="main-btn main-btn-2" href="#">Get Started</a></li>
@@ -303,8 +273,8 @@
                 <div class="row">
                     <div class="col-xl-7 col-lg-9">
                         <div class="slider-cont">
-                            <h1 data-animation="bounceInLeft" data-delay="1s">Explore a variety of fresh topics</h1>
-                            <p data-animation="fadeInUp" data-delay="1.3s">Find the right course for you</p>
+                            <h1 data-animation="bounceInLeft" data-delay="1s">Choose the right theme for education</h1>
+                            <p data-animation="fadeInUp" data-delay="1.3s">Donec vitae sapien ut libearo venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt  Sed fringilla mauri amet nibh.</p>
                             <ul>
                                 <li><a data-animation="fadeInUp" data-delay="1.6s" class="main-btn" href="#">Read More</a></li>
                                 <li><a data-animation="fadeInUp" data-delay="1.9s" class="main-btn main-btn-2" href="#">Get Started</a></li>
@@ -338,7 +308,7 @@
                                             <img src="images/all-icon/ctg-1.png" alt="Icon">
                                         </span>
                                         <span class="cont">
-                                            <span>Dvelopment</span>
+                                            <span>Language</span>
                                         </span>
                                     </span> <!-- singel category -->
                                 </a>
@@ -362,7 +332,7 @@
                                             <img src="images/all-icon/ctg-3.png" alt="Icon">
                                         </span>
                                         <span class="cont">
-                                            <span>Accounting and Finance</span>
+                                            <span>Literature</span>
                                         </span>
                                     </span> <!-- singel category -->
                                 </a>
@@ -374,7 +344,7 @@
                                             <img src="images/all-icon/ctg-1.png" alt="Icon">
                                         </span>
                                         <span class="cont">
-                                            <span>IT and Software</span>
+                                            <span>Language</span>
                                         </span>
                                     </span> <!-- singel category -->
                                 </a>
@@ -386,7 +356,7 @@
                                             <img src="images/all-icon/ctg-2.png" alt="Icon">
                                         </span>
                                         <span class="cont">
-                                            <span>Office Productivity</span>
+                                            <span>Business</span>
                                         </span>
                                     </span> <!-- singel category -->
                                 </a>
@@ -398,7 +368,7 @@
                                             <img src="images/all-icon/ctg-3.png" alt="Icon">
                                         </span>
                                         <span class="cont">
-                                            <span>Personal Development</span>
+                                            <span>Literature</span>
                                         </span>
                                     </span> <!-- singel category -->
                                 </a>
@@ -414,7 +384,85 @@
    
     <!--====== ABOUT PART START ======-->
     
+    <section id="about-part" class="pt-65">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="section-title mt-50">
+                        <h5>About us</h5>
+                        <h2>Welcome to Edubin </h2>
+                    </div> <!-- section title -->
+                    <div class="about-cont">
+                        <p>Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet . Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt  mauris. <br> <br> auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet . Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt  mauris</p>
+                        <a href="#" class="main-btn mt-55">Learn More</a>
+                    </div>
+                </div> <!-- about cont -->
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="about-event mt-50">
+                        <div class="event-title">
+                            <h3>Upcoming events</h3>
+                        </div> <!-- event title -->
+                        <ul>
+                            <li>
+                                <div class="singel-event">
+                                    <span><i class="fa fa-calendar"></i> 2 December 2018</span>
+                                    <a href="events-singel.html"><h4>Campus clean workshop</h4></a>
+                                    <span><i class="fa fa-clock-o"></i> 10:00 Am - 3:00 Pm</span>
+                                    <span><i class="fa fa-map-marker"></i> Rc Auditorim</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="singel-event">
+                                    <span><i class="fa fa-calendar"></i> 2 December 2018</span>
+                                    <a href="events-singel.html"><h4>Tech Summit</h4></a>
+                                    <span><i class="fa fa-clock-o"></i> 10:00 Am - 3:00 Pm</span>
+                                    <span><i class="fa fa-map-marker"></i> Rc Auditorim</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="singel-event">
+                                    <span><i class="fa fa-calendar"></i> 2 December 2018</span>
+                                    <a href="events-singel.html"><h4>Enviroement conference</h4></a>
+                                    <span><i class="fa fa-clock-o"></i> 10:00 Am - 3:00 Pm</span>
+                                    <span><i class="fa fa-map-marker"></i> Rc Auditorim</span>
+                                </div>
+                            </li>
+                        </ul> 
+                    </div> <!-- about event -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+        <div class="about-bg">
+            <img src="images/about/bg-1.png" alt="About">
+        </div>
+    </section>
     
+    <!--====== ABOUT PART ENDS ======-->
+   
+    <!--====== APPLY PART START ======-->
+    
+    <section id="apply-aprt" class="pb-120">
+        <div class="container">
+            <div class="apply">
+                <div class="row no-gutters">
+                    <div class="col-lg-6">
+                        <div class="apply-cont apply-color-1">
+                            <h3>Apply for fall 2019</h3>
+                            <p>Gravida nibh vel velit auctor aliquetn sollicitudirem sem quibibendum auci elit cons equat ipsutis sem nibh id elituis sed odio sit amet nibh vulputate cursus equat ipsutis.</p>
+                            <a href="#" class="main-btn">Apply Now</a>
+                        </div> <!-- apply cont -->
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="apply-cont apply-color-2">
+                            <h3>Apply for scholarship</h3>
+                            <p>Gravida nibh vel velit auctor aliquetn sollicitudirem sem quibibendum auci elit cons equat ipsutis sem nibh id elituis sed odio sit amet nibh vulputate cursus equat ipsutis.</p>
+                            <a href="#" class="main-btn">Apply Now</a>
+                        </div> <!-- apply cont -->
+                    </div> 
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
     
     <!--====== APPLY PART ENDS ======-->
    
@@ -430,76 +478,45 @@
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
-
-
-
-            <div class="container mt-5 text-center" >
-           <h3>
-                <small class="text-muted">Top Courses</small>
-              </h3>
-
-            <div class="card-columns" >
-                  @foreach($courses as $course)
-                    <div class="card mx-1">
-                        <span class="badge  badge-warning w-50 mt-2"
-                          style="position: absolute; z-index: 3"
-                        >BEST SELLER</span>
-                    <a href="/courses/{{ $course->id }}" class="card-img-top h-50"  >  
-                        <img   class="w-100" src="/images/course.jpg" alt="{{ $course->title }}"> 
-                    </a> 
-                    <br/>
-                      <div class="card-body px-2">
-                        <h6>{{ $course->title }}</h6>
-                        <p class="card-text" style="font-size: 11px;">{{ $course->user['name'] }} | {{ $course->sub_title }}</p>
-                        <p class="card-text"><small class="text-muted">
-                            <i class="fas fa-star text-warning"></i>
-                            <i class="fas fa-star text-warning"></i>
-                            <i class="fas fa-star text-warning"></i>
-                            <i class="fas fa-star text-warning"></i>
-                            <i class="fas fa-star-half text-warning"></i>
-                          {{--  4.5 (18,560)  --}}
-                        </small>
-                          <span class="d-block"></span>
-                         
-                          <span class="float-left" style=" font-size: 25px;"> 
-                            ${{ number_format($course->discount_price/360) }} 
-                            <small style="text-decoration: line-through; color:brown;" >
-                              (${{number_format($course->actual_price / 360)}}) </small> <br/>
-
-                              
-                              <small style="font-size: 15px;">
-                               or 
-                               
-                               <span class="text-success text-bold">
-                                 <b>₦{{ number_format($course->discount_price) }}</b>
-                              </small>
-                              </small>
-                              <small style="font-size: 15px;text-decoration: line-through; color:brown;" >
-                              (₦{{number_format($course->actual_price)}}) </small>
-                              
-                            </span>
-                           <div style="float:right;" >
-                          {{-- <a href="/courses/{{ $course->id }}" class="btn btn-lg btn-default text-dark btn-oyline" >Read more</a> --}}
-                          <a href="/courses/{{ $course->id }}" class="btn btn-lg btn-danger" >Enroll Now</a>
-                           </div>
-                          </p>
-                      </div>
-                    </div>
-                    @endforeach
-                  </div>
-
-
-
-           
-
-
-
-
-
-
-
-
-                {{--<div class="col-lg-4">
+            <div class="row course-slied mt-30">
+                <div class="col-lg-4">
+                    <div class="singel-course">
+                        <div class="thum">
+                            <div class="image">
+                                <img src="images/course/cu-1.jpg" alt="Course">
+                            </div>
+                            <div class="price">
+                                <span>Free</span>
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <ul>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>(20 Reviws)</span>
+                            <a href="courses-singel.html"><h4>Learn basis javascirpt from start for beginner</h4></a>
+                            <div class="course-teacher">
+                                <div class="thum">
+                                    <a href="#"><img src="images/course/teacher/t-1.jpg" alt="teacher"></a>
+                                </div>
+                                <div class="name">
+                                    <a href="#"><h6>Mark anthem</h6></a>
+                                </div>
+                                <div class="admin">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i><span>31</span></a></li>
+                                        <li><a href="#"><i class="fa fa-heart"></i><span>10</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- singel course -->
+                </div>
+                <div class="col-lg-4">
                     <div class="singel-course">
                         <div class="thum">
                             <div class="image">
@@ -591,7 +608,7 @@
                                 <li><i class="fa fa-star"></i></li>
                                 <li><i class="fa fa-star"></i></li>
                             </ul>
-                            <span>(20 Reviews)</span>
+                            <span>(20 Reviws)</span>
                             <a href="courses-singel.html"><h4>Learn basis javascirpt from start for beginner</h4></a>
                             <div class="course-teacher">
                                 <div class="thum">
@@ -645,7 +662,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div> <!-- singel course --> --}}
+                    </div> <!-- singel course -->
                 </div>
             </div> <!-- course slied -->
         </div> <!-- container -->
@@ -666,7 +683,7 @@
                 <div class="col-lg-5 offset-lg-1 order-first order-lg-last">
                     <div class="feature pt-50">
                         <div class="feature-title">
-                            <h3>Watch Video Testimonials of Our Students</h3>
+                            <h3>Our Facilities</h3>
                         </div>
                         <ul>
                             <li>
@@ -675,7 +692,7 @@
                                         <img src="images/all-icon/f-1.png" alt="icon">
                                     </div>
                                     <div class="cont">
-                                       {{-- <h4>Global Certificate</h4>
+                                        <h4>Global Certificate</h4>
                                         <p>Gravida nibh vel velit auctor aliquetn auci elit cons solliazcitudirem sem quibibendum sem nibhutis.</p>
                                     </div>
                                 </div> <!-- singel feature -->
@@ -699,7 +716,7 @@
                                     <div class="cont">
                                         <h4>Books & Library</h4>
                                         <p>Gravida nibh vel velit auctor aliquetn auci elit cons solliazcitudirem sem quibibendum sem nibhutis.</p>
-                                    </div> --}}
+                                    </div>
                                 </div> <!-- singel feature -->
                             </li>
                         </ul>
@@ -714,13 +731,184 @@
    
     <!--====== TEACHERS PART START ======-->
     
-    
+    <section id="teachers-part" class="pt-70 pb-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="section-title mt-50">
+                        <h5>Featured Teachers</h5>
+                        <h2>Meet Our teachers</h2>
+                    </div> <!-- section title -->
+                    <div class="teachers-cont">
+                        <p>Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet . Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt  mauris. <br> <br> auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet . Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt  mauris</p>
+                        <a href="#" class="main-btn mt-55">Career with us</a>
+                    </div> <!-- teachers cont -->
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="teachers mt-20">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="singel-teachers mt-30 text-center">
+                                    <div class="image">
+                                        <img src="images/teachers/t-1.jpg" alt="Teachers">
+                                    </div>
+                                    <div class="cont">
+                                        <a href="teachers-singel.html"><h6>Mark alen</h6></a>
+                                        <span>Vice chencelor</span>
+                                    </div>
+                                </div> <!-- singel teachers -->
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="singel-teachers mt-30 text-center">
+                                    <div class="image">
+                                        <img src="images/teachers/t-2.jpg" alt="Teachers">
+                                    </div>
+                                    <div class="cont">
+                                        <a href="teachers-singel.html"><h6>David card</h6></a>
+                                        <span>Pro chencelor</span>
+                                    </div>
+                                </div> <!-- singel teachers -->
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="singel-teachers mt-30 text-center">
+                                    <div class="image">
+                                        <img src="images/teachers/t-3.jpg" alt="Teachers">
+                                    </div>
+                                    <div class="cont">
+                                        <a href="teachers-singel.html"><h6>Rebeka alig</h6></a>
+                                        <span>Pro chencelor</span>
+                                    </div>
+                                </div> <!-- singel teachers -->
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="singel-teachers mt-30 text-center">
+                                    <div class="image">
+                                        <img src="images/teachers/t-4.jpg" alt="Teachers">
+                                    </div>
+                                    <div class="cont">
+                                        <a href="teachers-singel.html"><h6>Hanna bein</h6></a>
+                                        <span>Aerobics head</span>
+                                    </div>
+                                </div> <!-- singel teachers -->
+                            </div>
+                        </div> <!-- row -->
+                    </div> <!-- teachers -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
     
     <!--====== TEACHERS PART ENDS ======-->
    
     <!--====== PUBLICATION PART START ======-->
     
-    
+    <section id="publication-part" class="pt-115 pb-120 gray-bg">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-lg-6 col-md-8 col-sm-7">
+                    <div class="section-title pb-60">
+                        <h5>Publications</h5>
+                        <h2>From Store </h2>
+                    </div> <!-- section title -->
+                </div>
+                <div class="col-lg-6 col-md-4 col-sm-5">
+                    <div class="products-btn text-right pb-60">
+                        <a href="#" class="main-btn">All Products</a>
+                    </div> <!-- products btn -->
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-8">
+                    <div class="singel-publication mt-30">
+                        <div class="image">
+                            <img src="images/publication/p-1.jpg" alt="Publication">
+                            <div class="add-cart">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <div class="name">
+                                <a href="shop-singel.html"><h6>Set for life </h6></a>
+                                <span>By Scott Trench</span>
+                            </div>
+                            <div class="button text-right">
+                                <a href="#" class="main-btn">Buy Now ($50)</a>
+                            </div>
+                        </div>
+                    </div> <!-- singel publication -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-8">
+                    <div class="singel-publication mt-30">
+                        <div class="image">
+                            <img src="images/publication/p-2.jpg" alt="Publication">
+                            <div class="add-cart">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <div class="name">
+                                <a href="shop-singel.html"><h6>A Daughters </h6></a>
+                                <span>By Scott Trench</span>
+                            </div>
+                            <div class="button text-right">
+                                <a href="#" class="main-btn">Buy Now ($30)</a>
+                            </div>
+                        </div>
+                    </div> <!-- singel publication -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-8">
+                    <div class="singel-publication mt-30">
+                        <div class="image">
+                            <img src="images/publication/p-3.jpg" alt="Publication">
+                            <div class="add-cart">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <div class="name">
+                                <a href="shop-singel.html"><h6>A Magnet </h6></a>
+                                <span>By Scott Trench</span>
+                            </div>
+                            <div class="button text-right">
+                                <a href="#" class="main-btn">Buy Now ($20)</a>
+                            </div>
+                        </div>
+                    </div> <!-- singel publication -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-8">
+                    <div class="singel-publication mt-30">
+                        <div class="image">
+                            <img src="images/publication/p-4.jpg" alt="Publication">
+                            <div class="add-cart">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <div class="name">
+                                <a href="shop-singel.html"><h6>Pices of light</h6></a>
+                                <span>By Scott Trench</span>
+                            </div>
+                            <div class="button text-right">
+                                <a href="#" class="main-btn">Buy Now ($75)</a>
+                            </div>
+                        </div>
+                    </div> <!-- singel publication -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
     
     <!--====== PUBLICATION PART ENDS ======-->
    
@@ -732,7 +920,7 @@
                 <div class="col-lg-6">
                     <div class="section-title pb-40">
                         <h5>Testimonial</h5>
-                        <h2>What Our Stuudents Are saying</h2>
+                        <h2>What they say</h2>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
@@ -740,7 +928,7 @@
                 <div class="col-lg-6">
                     <div class="singel-testimonial">
                         <div class="testimonial-thum">
-                            <img src="images/slider/s-1.jpg" alt="Testimonial">
+                            <img src="images/testimonial/t-1.jpg" alt="Testimonial">
                             <div class="quote">
                                 <i class="fa fa-quote-right"></i>
                             </div>
@@ -755,7 +943,7 @@
                 <div class="col-lg-6">
                     <div class="singel-testimonial">
                         <div class="testimonial-thum">
-                            <img src="images/slider/s-2.jpg" alt="Testimonial">
+                            <img src="images/testimonial/t-2.jpg" alt="Testimonial">
                             <div class="quote">
                                 <i class="fa fa-quote-right"></i>
                             </div>
@@ -770,7 +958,7 @@
                 <div class="col-lg-6">
                     <div class="singel-testimonial">
                         <div class="testimonial-thum">
-                            <img src="images/slider/s-3.jpg" alt="Testimonial">
+                            <img src="images/testimonial/t-3.jpg" alt="Testimonial">
                             <div class="quote">
                                 <i class="fa fa-quote-right"></i>
                             </div>
@@ -790,12 +978,99 @@
    
     <!--====== NEWS PART START ======-->
     
-    
+    <section id="news-part" class="pt-115 pb-110">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title pb-50">
+                        <h5>Latest News</h5>
+                        <h2>From the news</h2>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="singel-news mt-30">
+                        <div class="news-thum pb-25">
+                            <img src="images/news/n-1.jpg" alt="News">
+                        </div>
+                        <div class="news-cont">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-calendar"></i>2 December 2018 </a></li>
+                                <li><a href="#"> <span>By</span> Adam linn</a></li>
+                            </ul>
+                            <a href="blog-singel.html"><h3>Tips to grade high cgpa in university life</h3></a>
+                            <p>Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt .</p>
+                        </div>
+                    </div> <!-- singel news -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="singel-news news-list">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="news-thum mt-30">
+                                    <img src="images/news/ns-1.jpg" alt="News">
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="news-cont mt-30">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-calendar"></i>2 December 2018 </a></li>
+                                        <li><a href="#"> <span>By</span> Adam linn</a></li>
+                                    </ul>
+                                    <a href="blog-singel.html"><h3>Intellectual communication</h3></a>
+                                    <p>Gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons  vel.</p>
+                                </div>
+                            </div>
+                        </div> <!-- row -->
+                    </div> <!-- singel news -->
+                    <div class="singel-news news-list">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="news-thum mt-30">
+                                    <img src="images/news/ns-2.jpg" alt="News">
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="news-cont mt-30">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-calendar"></i>2 December 2018 </a></li>
+                                        <li><a href="#"> <span>By</span> Adam linn</a></li>
+                                    </ul>
+                                    <a href="blog-singel.html"><h3>Study makes you perfect</h3></a>
+                                    <p>Gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons  vel.</p>
+                                </div>
+                            </div>
+                        </div> <!-- row -->
+                    </div> <!-- singel news -->
+                    <div class="singel-news news-list">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="news-thum mt-30">
+                                    <img src="images/news/ns-3.jpg" alt="News">
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="news-cont mt-30">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-calendar"></i>2 December 2018 </a></li>
+                                        <li><a href="#"> <span>By</span> Adam linn</a></li>
+                                    </ul>
+                                    <a href="blog-singel.html"><h3>Technology edcution is now....</h3></a>
+                                    <p>Gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons  vel.</p>
+                                </div>
+                            </div>
+                        </div> <!-- row -->
+                    </div> <!-- singel news -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
     
     <!--====== NEWS PART ENDS ======-->
    
     <!--====== PATNAR LOGO PART START ======-->
-    <p><h1>Companies we've worked with</h1></p>
+    
     <div id="patnar-logo" class="pt-40 pb-80 gray-bg">
         <div class="container">
             <div class="row patnar-slied">
@@ -844,9 +1119,9 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="footer-about mt-40">
                             <div class="logo">
-                                <a href="#"><h1>LearnFast</h1></a>
+                                <a href="#"><img src="images/logo-2.png" alt="Logo"></a>
                             </div>
-                            <p>Lorem Ipsum vel velit auctor aliquetn quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
+                            <p>Gravida nibh vel velit auctor aliquetn quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
                             <ul class="mt-20">
                                 <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -870,7 +1145,7 @@
                             <ul>
                                 <li><a href="#"><i class="fa fa-angle-right"></i>Gallery</a></li>
                                 <li><a href="shop.html"><i class="fa fa-angle-right"></i>Shop</a></li>
-                                <li><a href="teachers.html"><i class="fa fa-angle-right"></i>Instructors</a></li>
+                                <li><a href="teachers.html"><i class="fa fa-angle-right"></i>Teachers</a></li>
                                 <li><a href="#"><i class="fa fa-angle-right"></i>Support</a></li>
                                 <li><a href="contact.html"><i class="fa fa-angle-right"></i>Contact</a></li>
                             </ul>
@@ -901,7 +1176,7 @@
                                         <i class="fa fa-home"></i>
                                     </div>
                                     <div class="cont">
-                                        <p>No 70c, Allen Avenue, Ikeja, Lagos</p>
+                                        <p>143 castle road 517 district, kiyev port south Canada</p>
                                     </div>
                                 </li>
                                 <li>
@@ -909,7 +1184,7 @@
                                         <i class="fa fa-phone"></i>
                                     </div>
                                     <div class="cont">
-                                        <p>+234 7033437824</p>
+                                        <p>+3 123 456 789</p>
                                     </div>
                                 </li>
                                 <li>
@@ -917,7 +1192,7 @@
                                         <i class="fa fa-envelope-o"></i>
                                     </div>
                                     <div class="cont">
-                                        <p>tech365@gmail.com</p>
+                                        <p>info@yourmail.com</p>
                                     </div>
                                 </li>
                             </ul>
@@ -932,7 +1207,7 @@
                 <div class="row">
                     <div class="col-md-8">
                         <div class="copyright text-md-left text-center pt-15">
-                            <p><a target="_blank" href="#">LearnFast</a> </p>
+                            <p><a target="_blank" href="https://www.templateshub.net">Templates Hub</a> </p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -998,78 +1273,6 @@
     <!--====== Map js ======-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ"></script>
     <script src="js/map-script.js"></script>
-
-
-
-
-
-
-
-
-<!-- Button trigger modal -->
-
-
-<!-- Modal -->
-<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="loginModalLabel">Login</h4>
-         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-       
-      </div>
-      <div class="modal-body">
-        @include('auth.login-element')
-      </div>
-      {{-- <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div> --}}
-    </div>
-  </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" 
-aria-labelledby="registerModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="registerModalLabel">Register</h4>
-         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-       
-      </div>
-      <div class="modal-body">
-        @include('auth.register-element')
-      </div>
-      {{-- <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div> --}}
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
- 
-
-  
-  
-  <script>
-    $(function () {
-      $('[data-toggle="popover"]').popover()
-    })
-  
-  </script>
-
-
-
-
 
 </body>
 </html>
