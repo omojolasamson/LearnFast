@@ -33,6 +33,8 @@ Route::get('/tos', 'UserController@tos'
 );
 
 
+Route::get('/referral', 'UserController@referral')->name('referral');
+
 
 
 
@@ -123,3 +125,10 @@ Route::middleware(['moderator'])->group(function () {
 Route::get('courses/{id}', 'CourseController@show')->name('courses.show');
 
 Route::resource('courses', 'CourseController');
+
+
+Route::get('/', 'PayPalController@getIndex');
+Route::get('paypal/ec-checkout', 'PayPalController@getExpressCheckout');
+Route::get('paypal/ec-checkout-success', 'PayPalController@getExpressCheckoutSuccess');
+Route::get('paypal/adaptive-pay', 'PayPalController@getAdaptivePay');
+Route::post('paypal/notify', 'PayPalController@notify');

@@ -114,9 +114,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-4">
-                        <div class="logo" style="font-size:16px; font-weight: large; font-style: fantasy">
+                        <div class="logo" style="font-size:11px; font-weight: large; font-style: fantasy">
                             <!--<a href="index-2.html">-->
-                                <h1 style="font-size:30px; font-weight: bold; font-style: fantasy; color: red">LearnFast</h1>
+                            <img style=" width: 200px" src="images/logo-dark.png" alt="icon">
                             <!--</a>-->
                         </div>
                     </div>
@@ -173,10 +173,11 @@
                                         <a href="about.html">About us</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="courses.html">Courses</a>
+                                        <a href="courses.html">Join Us</a>
                                         <ul class="sub-menu">
-                                            <li><a href="courses.html">Courses</a></li>
-                                            <li><a href="courses-singel.html">Course Singel</a></li>
+                                            <li><a href="/instructing">Become an Instructor</a></li>
+                                            <li><a href="/login">Log In</a></li>
+                                            <li><a href="/register">Sign Up</a></li>
                                         </ul>
                                     </li>
                                     <!--<li class="nav-item">

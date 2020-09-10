@@ -14,6 +14,12 @@
     <a href="{!! route('payments.index') !!}">
         <i class="fa">₦</i><span>My Payments</span></a>
 </li>
+
+<li class="{{ Request::is('referral*') ? 'active' : '' }}">
+    <a href="{!! url('/referral') !!}">
+        <span>Referral</span></a>
+</li>
+
 <br/>
 <br/>
 <br/>

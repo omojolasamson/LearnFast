@@ -161,6 +161,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        
 
         /*
          * Package Service Providers...
@@ -181,7 +182,7 @@ return [
         \InfyOm\AdminLTETemplates\AdminLTETemplatesServiceProvider::class,
         Unicodeveloper\Paystack\PaystackServiceProvider::class,
         Alaouy\Youtube\YoutubeServiceProvider::class,
-        
+        Srmklive\PayPal\Providers\PayPalServiceProvider::class,
 
     ],
 
@@ -236,6 +237,7 @@ return [
         'Flash' => Laracasts\Flash\Flash::class,
         'Paystack' => Unicodeveloper\Paystack\Facades\Paystack::class,
         'Youtube' => Alaouy\Youtube\Facades\Youtube::class,
+        'PayPal' => Srmklive\PayPal\Facades\PayPal::class,
 
     ],
 

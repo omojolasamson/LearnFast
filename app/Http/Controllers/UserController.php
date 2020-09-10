@@ -65,6 +65,11 @@ class UserController extends AppBaseController
     }
 
 
+    public function referral()
+    {
+        return view('referral');
+    }
+
     public function refund()
     {
         return view('refunds');
