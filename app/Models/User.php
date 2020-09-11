@@ -57,7 +57,7 @@ class User extends Model
      * @var array
      */
     protected $casts = [
-        'id' => 'integer',
+        'id' => 'unsignedBigInteger',
         'name' => 'string',
         'email' => 'string',
         'first_name' => 'string',

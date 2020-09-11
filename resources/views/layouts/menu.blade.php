@@ -16,7 +16,7 @@
 </li>
 
 <li class="{{ Request::is('referral*') ? 'active' : '' }}">
-    <a href="{!! url('/referral') !!}">
+    <a href="/referral">
         <span>Referral</span></a>
 </li>
 

@@ -35,7 +35,13 @@ class HomeController extends Controller
         }
         $categories = Category::all();
         $courses = Course::all(); 
+        if ( null != courses){
+            return view('welcome')->with('courses',$courses)->with('categories', $categories);
+        } else{
+            return view('home');
+        }
 
-        return view('welcome')->with('courses',$courses)->with('categories', $categories);
+        //return view('welcome', compact('courses', 'categories'));
+        //return view('welcome')->with('courses',$courses)->with('categories', $categories);
     }
 }

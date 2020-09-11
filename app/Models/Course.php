@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  * @package App\Models
  * @version February 25, 2019, 10:40 am UTC
  *
- * @property integer user_id
+ * @property unsignedBigInteger user_id
  * @property integer category_id
  * @property string title
  * @property string sub_title
@@ -75,7 +75,7 @@ class Course extends Model
      */
     protected $casts = [
         'id' => 'integer',
-        'user_id' => 'integer',
+        'user_id' => 'unsignedBigInteger',
         'category_id' => 'integer',
         'title' => 'string',
         'sub_title' => 'string',
